@@ -14,6 +14,16 @@ int main() {
 
     std::cout << priceOfYourFitMonthly << std::endl;
 
+    // single characters (Must use single quotes)
+
+    char grade = 'A';
+    char firstNameInitial = 'A';
+    char lastNameInitial = 'C';
+
+    std::string firstName = "Aviad";
+    std::string lastName = "Churaman"
+
+
 
     return 0;
 } 
