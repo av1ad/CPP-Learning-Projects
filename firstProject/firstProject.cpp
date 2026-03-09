@@ -16,13 +16,19 @@ int main() {
 
     // single characters (Must use single quotes)
 
-    char grade = 'A';
+    char grade = 'A'; 
     char firstNameInitial = 'A';
     char lastNameInitial = 'C';
 
-    std::string firstName = "Aviad";
-    std::string lastName = "Churaman"
+    // Boolean (True/False)
 
+    bool hasACar = true;
+    bool power = false;
+
+    // Strings
+
+    std::string firstName = "Aviad";
+    std::string lastName = "Churaman";
 
 
     return 0;
