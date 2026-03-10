@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main() {
+int main()
+{
     std::cout << "I love Dajana" << std::endl;
     std::cout << " - from your husband" << std::endl;
 
@@ -16,7 +17,7 @@ int main() {
 
     // single characters (Must use single quotes)
 
-    char grade = 'A'; 
+    char grade = 'A';
     char firstNameInitial = 'A';
     char lastNameInitial = 'C';
 
@@ -25,11 +26,15 @@ int main() {
     bool hasACar = true;
     bool power = false;
 
-    // Strings
+    // Strings (object that represens a sequence of text)
 
     std::string firstName = "Aviad";
     std::string lastName = "Churaman";
+    std::string email = "aviadchuraman@yourfit.ai";
 
+    std::cout << "Hello " << firstName << " " << lastName << std::endl;
+
+    std::cout << firstName << " is " << age << " years old. " << "Best way to reach him is at " << email << std::endl;
 
     return 0;
-} 
+}
