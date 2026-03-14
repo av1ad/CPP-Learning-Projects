@@ -12,7 +12,8 @@ int main()
     // typedefs = reserved ketword used to create an additional name (alias) for another data type. - Think of nickname
     //  New identifier for an existing type
     //  This helps with readability and reduces typos
-
+    // Use when there is a clear benefit only
+    // Replaced with the 'using' keyword (works better w/templates)
 
     // pairlist_t pairlist;
 
@@ -22,7 +23,5 @@ int main()
 
     std::cout << firstName << " is " << age << " years old.";
 
-    
-
-    return 0;
+        return 0;
 }
