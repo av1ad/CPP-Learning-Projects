@@ -12,7 +12,7 @@ int main()
     std::cout << circumference << "cm";
 
 
-    const int BIRTH_YEAR = 2004
+    const int BIRTH_YEAR = 2004;
 
     return 0;
 }

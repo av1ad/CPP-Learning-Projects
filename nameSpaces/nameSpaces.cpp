@@ -17,7 +17,6 @@ int main()
     // using std::string;
     using namespace second;
 
-
     std::cout << x;
 
     // std::cout << first::x;
