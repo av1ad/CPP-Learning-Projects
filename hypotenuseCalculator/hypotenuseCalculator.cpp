@@ -16,7 +16,7 @@ int main()
 
     c = hypot(a, b);
 
-    std::cout << c;
+    std::cout << "c = " << c << '\n';
 
     return 0;
 }
